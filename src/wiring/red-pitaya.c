@@ -24,7 +24,7 @@ extern "C" {
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <rp.h>
+#include <redpitaya/rp.h>
 #include "wiring.h"
 
 rp_dpin_t gpio[] = {RP_DIO0_P, RP_DIO1_P, RP_DIO2_P, RP_DIO3_P, RP_DIO4_P, RP_DIO5_P, RP_DIO6_P, RP_DIO7_P, RP_DIO0_N, RP_DIO1_N, RP_DIO2_N, RP_DIO3_N, RP_DIO4_N, RP_DIO5_N, RP_DIO6_N, RP_DIO7_N, RP_LED0, RP_LED1, RP_LED2, RP_LED3, RP_LED4, RP_LED5, RP_LED6, RP_LED7};
